@@ -1,0 +1,202 @@
+2026-11-05 09:59:12,970 | INFO | === Início do pipeline RPA integrado (Sprint 4) ===
+2026-11-05 09:59:13,009 | INFO | Ativo registrado: MOT-W22-001 (id=1)
+2026-11-05 09:59:13,018 | INFO | CICLO 1 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 09:59:14,038 | INFO | ALERTA | ativo=1 | anomalia=subtensao | severidade=critico | evento=1 | recomendacao=Verificar alimentação e disjuntores; acionar equipe elétrica.
+2026-11-05 09:59:14,038 | INFO | CICLO 2 | status=Alerta | anomalia=subtensao
+2026-11-05 09:59:15,052 | INFO | Evento 1 já em andamento para o ativo 1
+2026-11-05 09:59:15,052 | INFO | CICLO 3 | status=Operação Normal | anomalia=subtensao
+2026-11-05 09:59:16,064 | INFO | RESOLVIDO | evento=1 | ativo=1
+2026-11-05 09:59:16,064 | INFO | CICLO 4 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 09:59:17,084 | INFO | ALERTA | ativo=1 | anomalia=alta_temperatura | severidade=alerta | evento=2 | recomendacao=Verificar sistema de ventilação, reduzir carga e inspecionar rolamentos.
+2026-11-05 09:59:17,084 | INFO | CICLO 5 | status=Alerta | anomalia=alta_temperatura
+2026-11-05 09:59:18,094 | INFO | Evento 2 já em andamento para o ativo 1
+2026-11-05 09:59:18,094 | INFO | CICLO 6 | status=Operação Normal | anomalia=subtensao
+2026-11-05 09:59:19,103 | INFO | Evento 2 já em andamento para o ativo 1
+2026-11-05 09:59:19,103 | INFO | CICLO 7 | status=Alerta | anomalia=sobrecarga
+2026-11-05 09:59:20,111 | INFO | Evento 2 já em andamento para o ativo 1
+2026-11-05 09:59:20,111 | INFO | CICLO 8 | status=Alerta | anomalia=sobrecarga
+2026-11-05 09:59:21,130 | INFO | RESOLVIDO | evento=2 | ativo=1
+2026-11-05 09:59:21,130 | INFO | CICLO 9 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 09:59:22,137 | INFO | CICLO 10 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 09:59:22,139 | INFO | Contexto RAG exportado para C:\Users\Felipe\Downloads\Challenge Sprint 4\data\rag_context.json
+2026-11-05 09:59:23,151 | INFO | ALERTA | ativo=1 | anomalia=sobrecarga | severidade=critico | evento=3 | recomendacao=Reduzir carga imediatamente e inspecionar acoplamento/eixo.
+2026-11-05 09:59:23,151 | INFO | CICLO 11 | status=Operação Normal | anomalia=sobrecarga
+2026-11-05 09:59:24,164 | INFO | RESOLVIDO | evento=3 | ativo=1
+2026-11-05 09:59:24,164 | INFO | CICLO 12 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 09:59:25,186 | INFO | ALERTA | ativo=1 | anomalia=alta_temperatura | severidade=critico | evento=4 | recomendacao=Verificar sistema de ventilação, reduzir carga e inspecionar rolamentos.
+2026-11-05 09:59:25,186 | INFO | CICLO 13 | status=Crítico | anomalia=alta_temperatura
+2026-11-05 09:59:26,196 | INFO | Evento 4 já em andamento para o ativo 1
+2026-11-05 09:59:26,197 | INFO | CICLO 14 | status=Alerta | anomalia=subtensao
+2026-11-05 09:59:27,204 | INFO | Evento 4 já em andamento para o ativo 1
+2026-11-05 09:59:27,204 | INFO | CICLO 15 | status=Alerta | anomalia=alta_vibracao
+2026-11-05 09:59:28,212 | INFO | Evento 4 já em andamento para o ativo 1
+2026-11-05 09:59:28,212 | INFO | CICLO 16 | status=Alerta | anomalia=alta_vibracao
+2026-11-05 09:59:29,222 | INFO | Evento 4 já em andamento para o ativo 1
+2026-11-05 09:59:29,222 | INFO | CICLO 17 | status=Operação Normal | anomalia=sobrecarga
+2026-11-05 09:59:30,233 | INFO | Evento 4 já em andamento para o ativo 1
+2026-11-05 09:59:30,234 | INFO | CICLO 18 | status=Crítico | anomalia=alta_vibracao
+2026-11-05 09:59:31,247 | INFO | RESOLVIDO | evento=4 | ativo=1
+2026-11-05 09:59:31,248 | INFO | CICLO 19 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 09:59:32,263 | INFO | ALERTA | ativo=1 | anomalia=sobrecarga | severidade=critico | evento=5 | recomendacao=Reduzir carga imediatamente e inspecionar acoplamento/eixo.
+2026-11-05 09:59:32,263 | INFO | CICLO 20 | status=Crítico | anomalia=sobrecarga
+2026-11-05 09:59:32,266 | INFO | Contexto RAG exportado para C:\Users\Felipe\Downloads\Challenge Sprint 4\data\rag_context.json
+2026-11-05 09:59:33,282 | INFO | RESOLVIDO | evento=5 | ativo=1
+2026-11-05 09:59:33,282 | INFO | CICLO 21 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 09:59:34,291 | INFO | CICLO 22 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 09:59:35,311 | INFO | ALERTA | ativo=1 | anomalia=alta_temperatura | severidade=alerta | evento=6 | recomendacao=Verificar sistema de ventilação, reduzir carga e inspecionar rolamentos.
+2026-11-05 09:59:35,311 | INFO | CICLO 23 | status=Alerta | anomalia=alta_temperatura
+2026-11-05 09:59:36,317 | INFO | Evento 6 já em andamento para o ativo 1
+2026-11-05 09:59:36,317 | INFO | CICLO 24 | status=Alerta | anomalia=alta_temperatura
+2026-11-05 09:59:37,324 | INFO | Evento 6 já em andamento para o ativo 1
+2026-11-05 09:59:37,325 | INFO | CICLO 25 | status=Alerta | anomalia=alta_temperatura
+2026-11-05 09:59:38,338 | INFO | Evento 6 já em andamento para o ativo 1
+2026-11-05 09:59:38,338 | INFO | CICLO 26 | status=Operação Normal | anomalia=sobrecarga
+2026-11-05 09:59:39,346 | INFO | Evento 6 já em andamento para o ativo 1
+2026-11-05 09:59:39,346 | INFO | CICLO 27 | status=Operação Normal | anomalia=sobrecarga
+2026-11-05 09:59:40,360 | INFO | RESOLVIDO | evento=6 | ativo=1
+2026-11-05 09:59:40,360 | INFO | CICLO 28 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 09:59:41,373 | INFO | ALERTA | ativo=1 | anomalia=sobrecarga | severidade=critico | evento=7 | recomendacao=Reduzir carga imediatamente e inspecionar acoplamento/eixo.
+2026-11-05 09:59:41,373 | INFO | CICLO 29 | status=Operação Normal | anomalia=sobrecarga
+2026-11-05 09:59:42,384 | INFO | RESOLVIDO | evento=7 | ativo=1
+2026-11-05 09:59:42,384 | INFO | CICLO 30 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 09:59:42,388 | INFO | Contexto RAG exportado para C:\Users\Felipe\Downloads\Challenge Sprint 4\data\rag_context.json
+2026-11-05 09:59:43,403 | INFO | ALERTA | ativo=1 | anomalia=alta_temperatura | severidade=critico | evento=8 | recomendacao=Verificar sistema de ventilação, reduzir carga e inspecionar rolamentos.
+2026-11-05 09:59:43,403 | INFO | CICLO 31 | status=Crítico | anomalia=alta_temperatura
+2026-11-05 09:59:44,419 | INFO | RESOLVIDO | evento=8 | ativo=1
+2026-11-05 09:59:44,419 | INFO | CICLO 32 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 09:59:45,433 | INFO | ALERTA | ativo=1 | anomalia=sobrecarga | severidade=critico | evento=9 | recomendacao=Reduzir carga imediatamente e inspecionar acoplamento/eixo.
+2026-11-05 09:59:45,433 | INFO | CICLO 33 | status=Operação Normal | anomalia=sobrecarga
+2026-11-05 09:59:46,465 | INFO | RESOLVIDO | evento=9 | ativo=1
+2026-11-05 09:59:46,465 | INFO | CICLO 34 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 09:59:47,484 | INFO | ALERTA | ativo=1 | anomalia=alta_temperatura | severidade=critico | evento=10 | recomendacao=Verificar sistema de ventilação, reduzir carga e inspecionar rolamentos.
+2026-11-05 09:59:47,484 | INFO | CICLO 35 | status=Crítico | anomalia=alta_temperatura
+2026-11-05 09:59:48,501 | INFO | RESOLVIDO | evento=10 | ativo=1
+2026-11-05 09:59:48,501 | INFO | CICLO 36 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 09:59:49,508 | INFO | CICLO 37 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 09:59:50,524 | INFO | ALERTA | ativo=1 | anomalia=alta_vibracao | severidade=alerta | evento=11 | recomendacao=Realizar alinhamento e balanceamento do rotor; verificar fixação da base.
+2026-11-05 09:59:50,524 | INFO | CICLO 38 | status=Alerta | anomalia=alta_vibracao
+2026-11-05 09:59:51,534 | INFO | Evento 11 já em andamento para o ativo 1
+2026-11-05 09:59:51,534 | INFO | CICLO 39 | status=Operação Normal | anomalia=sobrecarga
+2026-11-05 10:00:29,255 | INFO | === Início do pipeline RPA integrado (Sprint 4) ===
+2026-11-05 10:00:29,299 | INFO | Ativo registrado: MOT-W22-001 (id=1)
+2026-11-05 10:00:29,317 | INFO | RESOLVIDO | evento=11 | ativo=1
+2026-11-05 10:00:29,318 | INFO | CICLO 1 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:00:30,338 | INFO | ALERTA | ativo=1 | anomalia=subtensao | severidade=critico | evento=12 | recomendacao=Verificar alimentação e disjuntores; acionar equipe elétrica.
+2026-11-05 10:00:30,339 | INFO | CICLO 2 | status=Alerta | anomalia=subtensao
+2026-11-05 10:00:31,350 | INFO | Evento 12 já em andamento para o ativo 1
+2026-11-05 10:00:31,350 | INFO | CICLO 3 | status=Operação Normal | anomalia=subtensao
+2026-11-05 10:00:32,361 | INFO | RESOLVIDO | evento=12 | ativo=1
+2026-11-05 10:00:32,361 | INFO | CICLO 4 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:00:33,378 | INFO | ALERTA | ativo=1 | anomalia=alta_temperatura | severidade=alerta | evento=13 | recomendacao=Verificar sistema de ventilação, reduzir carga e inspecionar rolamentos.
+2026-11-05 10:00:33,378 | INFO | CICLO 5 | status=Alerta | anomalia=alta_temperatura
+2026-11-05 10:00:34,388 | INFO | Evento 13 já em andamento para o ativo 1
+2026-11-05 10:00:34,388 | INFO | CICLO 6 | status=Operação Normal | anomalia=subtensao
+2026-11-05 10:00:35,399 | INFO | Evento 13 já em andamento para o ativo 1
+2026-11-05 10:00:35,399 | INFO | CICLO 7 | status=Alerta | anomalia=sobrecarga
+2026-11-05 10:00:36,406 | INFO | Evento 13 já em andamento para o ativo 1
+2026-11-05 10:00:36,406 | INFO | CICLO 8 | status=Alerta | anomalia=sobrecarga
+2026-11-05 10:00:37,422 | INFO | RESOLVIDO | evento=13 | ativo=1
+2026-11-05 10:00:37,422 | INFO | CICLO 9 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:00:38,430 | INFO | CICLO 10 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:00:38,434 | INFO | Contexto RAG exportado para C:\Users\Felipe\Downloads\Challenge Sprint 4\data\rag_context.json
+2026-11-05 10:00:39,450 | INFO | ALERTA | ativo=1 | anomalia=sobrecarga | severidade=critico | evento=14 | recomendacao=Reduzir carga imediatamente e inspecionar acoplamento/eixo.
+2026-11-05 10:00:39,450 | INFO | CICLO 11 | status=Operação Normal | anomalia=sobrecarga
+2026-11-05 10:00:40,460 | INFO | RESOLVIDO | evento=14 | ativo=1
+2026-11-05 10:00:40,460 | INFO | CICLO 12 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:00:41,478 | INFO | ALERTA | ativo=1 | anomalia=alta_temperatura | severidade=critico | evento=15 | recomendacao=Verificar sistema de ventilação, reduzir carga e inspecionar rolamentos.
+2026-11-05 10:00:41,479 | INFO | CICLO 13 | status=Crítico | anomalia=alta_temperatura
+2026-11-05 10:00:42,488 | INFO | Evento 15 já em andamento para o ativo 1
+2026-11-05 10:00:42,489 | INFO | CICLO 14 | status=Alerta | anomalia=subtensao
+2026-11-05 10:00:43,495 | INFO | Evento 15 já em andamento para o ativo 1
+2026-11-05 10:00:43,496 | INFO | CICLO 15 | status=Alerta | anomalia=alta_vibracao
+2026-11-05 10:00:44,503 | INFO | Evento 15 já em andamento para o ativo 1
+2026-11-05 10:00:44,504 | INFO | CICLO 16 | status=Alerta | anomalia=alta_vibracao
+2026-11-05 10:00:45,516 | INFO | Evento 15 já em andamento para o ativo 1
+2026-11-05 10:00:45,516 | INFO | CICLO 17 | status=Operação Normal | anomalia=sobrecarga
+2026-11-05 10:00:46,528 | INFO | Evento 15 já em andamento para o ativo 1
+2026-11-05 10:00:46,528 | INFO | CICLO 18 | status=Crítico | anomalia=alta_vibracao
+2026-11-05 10:00:47,544 | INFO | RESOLVIDO | evento=15 | ativo=1
+2026-11-05 10:00:47,544 | INFO | CICLO 19 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:00:48,564 | INFO | ALERTA | ativo=1 | anomalia=sobrecarga | severidade=critico | evento=16 | recomendacao=Reduzir carga imediatamente e inspecionar acoplamento/eixo.
+2026-11-05 10:00:48,564 | INFO | CICLO 20 | status=Crítico | anomalia=sobrecarga
+2026-11-05 10:00:48,569 | INFO | Contexto RAG exportado para C:\Users\Felipe\Downloads\Challenge Sprint 4\data\rag_context.json
+2026-11-05 10:00:49,587 | INFO | RESOLVIDO | evento=16 | ativo=1
+2026-11-05 10:00:49,587 | INFO | CICLO 21 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:00:50,596 | INFO | CICLO 22 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:00:51,617 | INFO | ALERTA | ativo=1 | anomalia=alta_temperatura | severidade=alerta | evento=17 | recomendacao=Verificar sistema de ventilação, reduzir carga e inspecionar rolamentos.
+2026-11-05 10:00:51,618 | INFO | CICLO 23 | status=Alerta | anomalia=alta_temperatura
+2026-11-05 10:00:52,623 | INFO | Evento 17 já em andamento para o ativo 1
+2026-11-05 10:00:52,623 | INFO | CICLO 24 | status=Alerta | anomalia=alta_temperatura
+2026-11-05 10:00:53,632 | INFO | Evento 17 já em andamento para o ativo 1
+2026-11-05 10:00:53,632 | INFO | CICLO 25 | status=Alerta | anomalia=alta_temperatura
+2026-11-05 10:00:54,644 | INFO | Evento 17 já em andamento para o ativo 1
+2026-11-05 10:00:54,644 | INFO | CICLO 26 | status=Operação Normal | anomalia=sobrecarga
+2026-11-05 10:00:55,650 | INFO | Evento 17 já em andamento para o ativo 1
+2026-11-05 10:00:55,650 | INFO | CICLO 27 | status=Operação Normal | anomalia=sobrecarga
+2026-11-05 10:00:56,663 | INFO | RESOLVIDO | evento=17 | ativo=1
+2026-11-05 10:00:56,663 | INFO | CICLO 28 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:00:57,675 | INFO | ALERTA | ativo=1 | anomalia=sobrecarga | severidade=critico | evento=18 | recomendacao=Reduzir carga imediatamente e inspecionar acoplamento/eixo.
+2026-11-05 10:00:57,675 | INFO | CICLO 29 | status=Operação Normal | anomalia=sobrecarga
+2026-11-05 10:00:58,686 | INFO | RESOLVIDO | evento=18 | ativo=1
+2026-11-05 10:00:58,686 | INFO | CICLO 30 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:00:58,692 | INFO | Contexto RAG exportado para C:\Users\Felipe\Downloads\Challenge Sprint 4\data\rag_context.json
+2026-11-05 10:00:59,708 | INFO | ALERTA | ativo=1 | anomalia=alta_temperatura | severidade=critico | evento=19 | recomendacao=Verificar sistema de ventilação, reduzir carga e inspecionar rolamentos.
+2026-11-05 10:00:59,708 | INFO | CICLO 31 | status=Crítico | anomalia=alta_temperatura
+2026-11-05 10:01:00,726 | INFO | RESOLVIDO | evento=19 | ativo=1
+2026-11-05 10:01:00,726 | INFO | CICLO 32 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:01:01,740 | INFO | ALERTA | ativo=1 | anomalia=sobrecarga | severidade=critico | evento=20 | recomendacao=Reduzir carga imediatamente e inspecionar acoplamento/eixo.
+2026-11-05 10:01:01,741 | INFO | CICLO 33 | status=Operação Normal | anomalia=sobrecarga
+2026-11-05 10:01:02,749 | INFO | RESOLVIDO | evento=20 | ativo=1
+2026-11-05 10:01:02,749 | INFO | CICLO 34 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:01:03,767 | INFO | ALERTA | ativo=1 | anomalia=alta_temperatura | severidade=critico | evento=21 | recomendacao=Verificar sistema de ventilação, reduzir carga e inspecionar rolamentos.
+2026-11-05 10:01:03,767 | INFO | CICLO 35 | status=Crítico | anomalia=alta_temperatura
+2026-11-05 10:01:04,783 | INFO | RESOLVIDO | evento=21 | ativo=1
+2026-11-05 10:01:04,783 | INFO | CICLO 36 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:01:05,796 | INFO | CICLO 37 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:01:06,813 | INFO | ALERTA | ativo=1 | anomalia=alta_vibracao | severidade=alerta | evento=22 | recomendacao=Realizar alinhamento e balanceamento do rotor; verificar fixação da base.
+2026-11-05 10:01:06,813 | INFO | CICLO 38 | status=Alerta | anomalia=alta_vibracao
+2026-11-05 10:01:07,824 | INFO | Evento 22 já em andamento para o ativo 1
+2026-11-05 10:01:07,824 | INFO | CICLO 39 | status=Operação Normal | anomalia=sobrecarga
+2026-11-05 10:01:08,833 | INFO | Evento 22 já em andamento para o ativo 1
+2026-11-05 10:01:08,833 | INFO | CICLO 40 | status=Alerta | anomalia=sobrecarga
+2026-11-05 10:01:08,837 | INFO | Contexto RAG exportado para C:\Users\Felipe\Downloads\Challenge Sprint 4\data\rag_context.json
+2026-11-05 10:01:09,850 | INFO | Evento 22 já em andamento para o ativo 1
+2026-11-05 10:01:09,850 | INFO | CICLO 41 | status=Crítico | anomalia=alta_temperatura
+2026-11-05 10:01:10,859 | INFO | Evento 22 já em andamento para o ativo 1
+2026-11-05 10:01:10,859 | INFO | CICLO 42 | status=Operação Normal | anomalia=subtensao
+2026-11-05 10:01:11,871 | INFO | Evento 22 já em andamento para o ativo 1
+2026-11-05 10:01:11,871 | INFO | CICLO 43 | status=Alerta | anomalia=alta_vibracao
+2026-11-05 10:01:12,881 | INFO | Evento 22 já em andamento para o ativo 1
+2026-11-05 10:01:12,882 | INFO | CICLO 44 | status=Crítico | anomalia=alta_temperatura
+2026-11-05 10:01:13,888 | INFO | Evento 22 já em andamento para o ativo 1
+2026-11-05 10:01:13,888 | INFO | CICLO 45 | status=Crítico | anomalia=alta_temperatura
+2026-11-05 10:01:14,901 | INFO | RESOLVIDO | evento=22 | ativo=1
+2026-11-05 10:01:14,902 | INFO | CICLO 46 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:01:15,910 | INFO | CICLO 47 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:01:16,927 | INFO | ALERTA | ativo=1 | anomalia=alta_vibracao | severidade=alerta | evento=23 | recomendacao=Realizar alinhamento e balanceamento do rotor; verificar fixação da base.
+2026-11-05 10:01:16,927 | INFO | CICLO 48 | status=Alerta | anomalia=alta_vibracao
+2026-11-05 10:01:17,938 | INFO | Evento 23 já em andamento para o ativo 1
+2026-11-05 10:01:17,938 | INFO | CICLO 49 | status=Operação Normal | anomalia=sobrecarga
+2026-11-05 10:01:18,948 | INFO | RESOLVIDO | evento=23 | ativo=1
+2026-11-05 10:01:18,948 | INFO | CICLO 50 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:01:18,953 | INFO | Contexto RAG exportado para C:\Users\Felipe\Downloads\Challenge Sprint 4\data\rag_context.json
+2026-11-05 10:01:19,965 | INFO | ALERTA | ativo=1 | anomalia=subtensao | severidade=critico | evento=24 | recomendacao=Verificar alimentação e disjuntores; acionar equipe elétrica.
+2026-11-05 10:01:19,965 | INFO | CICLO 51 | status=Operação Normal | anomalia=subtensao
+2026-11-05 10:01:20,977 | INFO | Evento 24 já em andamento para o ativo 1
+2026-11-05 10:01:20,977 | INFO | CICLO 52 | status=Crítico | anomalia=alta_temperatura
+2026-11-05 10:01:21,986 | INFO | Evento 24 já em andamento para o ativo 1
+2026-11-05 10:01:21,987 | INFO | CICLO 53 | status=Alerta | anomalia=alta_temperatura
+2026-11-05 10:01:23,000 | INFO | RESOLVIDO | evento=24 | ativo=1
+2026-11-05 10:01:23,000 | INFO | CICLO 54 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:01:24,016 | INFO | ALERTA | ativo=1 | anomalia=sobrecarga | severidade=critico | evento=25 | recomendacao=Reduzir carga imediatamente e inspecionar acoplamento/eixo.
+2026-11-05 10:01:24,017 | INFO | CICLO 55 | status=Alerta | anomalia=sobrecarga
+2026-11-05 10:01:25,031 | INFO | RESOLVIDO | evento=25 | ativo=1
+2026-11-05 10:01:25,031 | INFO | CICLO 56 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:01:26,039 | INFO | CICLO 57 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:01:27,055 | INFO | ALERTA | ativo=1 | anomalia=subtensao | severidade=critico | evento=26 | recomendacao=Verificar alimentação e disjuntores; acionar equipe elétrica.
+2026-11-05 10:01:27,055 | INFO | CICLO 58 | status=Crítico | anomalia=subtensao
+2026-11-05 10:01:28,069 | INFO | RESOLVIDO | evento=26 | ativo=1
+2026-11-05 10:01:28,070 | INFO | CICLO 59 | status=Operação Normal | anomalia=nenhuma
+2026-11-05 10:01:29,082 | INFO | ALERTA | ativo=1 | anomalia=subtensao | severidade=critico | evento=27 | recomendacao=Verificar alimentação e disjuntores; acionar equipe elétrica.
+2026-11-05 10:01:29,082 | INFO | CICLO 60 | status=Operação Normal | anomalia=subtensao
+2026-11-05 10:01:29,086 | INFO | Contexto RAG exportado para C:\Users\Felipe\Downloads\Challenge Sprint 4\data\rag_context.json

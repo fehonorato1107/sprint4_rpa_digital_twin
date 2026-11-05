@@ -1,0 +1,42 @@
+[
+  {
+    "tipo_anomalia": "alta_temperatura",
+    "descricao": "Temperatura acima do limiar operacional",
+    "causa_provavel": "Ventilação obstruída, sobrecarga ou rolamento desgastado",
+    "severidade": "alerta",
+    "procedimento_corretivo": "Verificar sistema de ventilação, reduzir carga e inspecionar rolamentos.",
+    "procedimento_preventivo": "Limpeza periódica das aletas e monitoramento de carga."
+  },
+  {
+    "tipo_anomalia": "alta_vibracao",
+    "descricao": "Vibração acima do limiar operacional",
+    "causa_provavel": "Desalinhamento, desbalanceamento ou folga mecânica",
+    "severidade": "alerta",
+    "procedimento_corretivo": "Realizar alinhamento e balanceamento do rotor; verificar fixação da base.",
+    "procedimento_preventivo": "Inspeção de alinhamento e balanceamento a cada ciclo programado."
+  },
+  {
+    "tipo_anomalia": "sobrecarga",
+    "descricao": "Corrente acima do nominal",
+    "causa_provavel": "Excesso de carga mecânica ou travamento do eixo",
+    "severidade": "critico",
+    "procedimento_corretivo": "Reduzir carga imediatamente e inspecionar acoplamento/eixo.",
+    "procedimento_preventivo": "Dimensionamento de carga e proteção por relé de sobrecarga."
+  },
+  {
+    "tipo_anomalia": "subtensao",
+    "descricao": "Tensão abaixo do nominal",
+    "causa_provavel": "Falha na rede elétrica ou queda de fase",
+    "severidade": "critico",
+    "procedimento_corretivo": "Verificar alimentação e disjuntores; acionar equipe elétrica.",
+    "procedimento_preventivo": "Monitoramento de qualidade de energia e proteções de fase."
+  },
+  {
+    "tipo_anomalia": "baixa_rotacao",
+    "descricao": "Rotação abaixo do nominal",
+    "causa_provavel": "Sobrecarga ou escorregamento excessivo",
+    "severidade": "alerta",
+    "procedimento_corretivo": "Avaliar carga aplicada e condição do rotor.",
+    "procedimento_preventivo": "Acompanhamento de curva de carga e rotação."
+  }
+]
